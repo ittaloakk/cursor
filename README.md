@@ -9,7 +9,7 @@ Run this command to install/update Cursor directly without cloning the repositor
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/hieutt192/Cursor-ubuntu/refs/heads/main/manage_cursor.sh)"
 ```
 
-> **Note:** For Ubuntu 24.04 installation, please switch to the `Cursor-ubuntu24.04` branch or visit: [Link](https://github.com/hieutt192/Cursor-ubuntu/tree/Cursor-ubuntu24.04)
+> **Note:** For Ubuntu 24.04 installation, please switch to the `Cursor-ubuntu24.04` branch or visit: [Link](https://github.com/coinhole/cursor/tree/ubuntu-24.04)
 
 ---
 
